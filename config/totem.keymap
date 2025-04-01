@@ -60,6 +60,26 @@
             bindings = <&TestHead>;
             key-positions = <30 29 28>;
         };
+
+        ExamineStatement {
+            bindings = <&ExamineState>;
+            key-positions = <9 8>;
+        };
+
+        InterviewStatement {
+            bindings = <&InterviewStatement>;
+            key-positions = <19 18>;
+        };
+
+        TestStatement {
+            bindings = <&TestStatement>;
+            key-positions = <30 29>;
+        };
+
+        excelRET {
+            bindings = <&Excel_RET>;
+            key-positions = <35 34>;
+        };
     };
 
     macros {
@@ -105,6 +125,36 @@
                 <&kp LEFT_ALT>;
 
             label = "EXCEL_RET";
+        };
+
+        ExamineState: ExamineState {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp N1 &kp RPAR &kp SPACE &kp LS(T) &kp H &kp E &kp SPACE &kp LT &kp GT &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp D &kp E &kp T &kp E &kp R &kp M &kp I &kp N &kp E &kp D &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp LT &kp GT &kp DOT &Excel_RET>;
+
+            label = "EXAMINESTATE";
+        };
+
+        InterviewStatement: InterviewStatement {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp N1 &kp RPAR &kp SPACE &kp LT &kp LS(C) &kp L &kp I &kp E &kp N &kp T &kp LS(P) &kp LS(O) &kp LS(C) &kp S &kp GT &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp D &kp E &kp T &kp E &kp R &kp M &kp I &kp N &kp E &kp D &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp LT &kp GT &kp DOT &Excel_RET>;
+
+            label = "INTERVIEWSTATEMENT";
+        };
+
+        TestStatement: TestStatement {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp N1 &kp RPAR &kp SPACE &kp LT &kp GT &kp SPACE &kp B &kp Y &kp SPACE &kp LT &kp GT &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp D &kp E &kp T &kp E &kp R &kp M &kp I &kp N &kp E &kp D &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp LT &kp GT &kp DOT &Excel_RET>;
+
+            label = "TESTSTATEMENT";
         };
     };
 
