@@ -44,23 +44,6 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
-
-        exam {
-            bindings = <&Exam>;
-            key-positions = <8 9 7>;
-        };
-    };
-
-    macros {
-        Exam: Exam {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp LS(C) &kp O &kp A &kp L &kp F &kp I &kp R &kp E &kp SPACE &kp LS(E) &kp X &kp A &kp M &kp I &kp N &kp E &kp D &kp COLON>;
-
-            label = "EXAM";
-        };
     };
 
     keymap {
