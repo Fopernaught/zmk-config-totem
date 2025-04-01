@@ -44,22 +44,75 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        exam {
+            bindings = <&Exam>;
+            key-positions = <8 9 7>;
+        };
+
+        Interview {
+            bindings = <&Inter>;
+            key-positions = <17 18 19>;
+        };
+
+        Test {
+            bindings = <&Test>;
+            key-positions = <30 29 28>;
+        };
+
+        ExamDoc {
+            bindings = <&ExamDoc>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
-        gif: gif {
-            label = "giphy";
+        Exam: Exam {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
+                <&macro_tap>,
+                <&kp LS(C) &kp O &kp A &kp L &kp F &kp I &kp R &kp E &kp SPACE &kp LS(E) &kp X &kp A &kp M &kp I &kp N &kp E &kp D &kp COLON>,
                 <&macro_press>,
-                <&kp LSHFT>,
+                <&kp LEFT_ALT &kp RETURN>;
+
+            label = "EXAM";
+        };
+
+        Test: Test {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
                 <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
+                <&kp LS(C) &kp O &kp A &kp L &kp F &kp I &kp R &kp E &kp SPACE &kp LS(T) &kp E &kp S &kp T &kp E &kp D &kp COLON>,
+                <&macro_press>,
+                <&kp LEFT_ALT &kp RET>;
+
+            label = "TEST";
+        };
+
+        Inter: Inter {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
                 <&macro_tap>,
-                <&kp G &kp I &kp F>;
+                <&kp LS(C) &kp O &kp A &kp L &kp F &kp I &kp R &kp E &kp SPACE &kp LS(I) &kp N &kp T &kp E &kp R &kp V &kp I &kp E &kp W &kp E &kp D &kp COLON>,
+                <&macro_press>,
+                <&kp LEFT_ALT &kp ENTER>;
+
+            label = "INTER";
+        };
+
+        ExamDoc: ExamDoc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&none &kp N1 &kp RPAR &kp SPACE &kp LT &kp GT &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp D &kp E &kp T &kp E &kp R &kp M &kp I &kp N &kp E &kp D &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp LT &kp GT &kp DOT>,
+                <&macro_press>,
+                <&kp LEFT_ALT &kp RET>;
+
+            label = "EXAMDOC";
         };
     };
 
