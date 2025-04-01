@@ -68,13 +68,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp LS(C) &kp O &kp A &kp L &kp F &kp I &kp R &kp E &kp SPACE &kp LS(E) &kp X &kp A &kp M &kp I &kp N &kp E &kp D &kp COLON>,
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp RET>,
-                <&macro_release>,
-                <&kp LEFT_ALT>;
+                <&kp LS(C) &kp O &kp A &kp L &kp F &kp I &kp R &kp E &kp SPACE &kp LS(E) &kp X &kp A &kp M &kp I &kp N &kp E &kp D &kp COLON &Excel_RET>;
 
             label = "EXAMINEHEAD";
         };
@@ -84,13 +78,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp LS(C) &kp O &kp A &kp L &kp F &kp I &kp R &kp E &kp SPACE &kp LS(I) &kp N &kp T &kp E &kp R &kp V &kp I &kp E &kp W &kp E &kp D &kp COLON>,
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp RET>,
-                <&macro_release>,
-                <&kp LEFT_ALT>;
+                <&kp LS(C) &kp O &kp A &kp L &kp F &kp I &kp R &kp E &kp SPACE &kp LS(I) &kp N &kp T &kp E &kp R &kp V &kp I &kp E &kp W &kp E &kp D &kp COLON &Excel_RET>;
 
             label = "INTERVIEWHEAD";
         };
@@ -100,13 +88,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp LS(C) &kp O &kp A &kp L &kp F &kp I &kp R &kp E &kp SPACE &kp LS(T) &kp E &kp S &kp T &kp E &kp D &kp COLON>,
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp RET>,
-                <&macro_release>,
-                <&kp LEFT_ALT>;
+                <&kp LS(C) &kp O &kp A &kp L &kp F &kp I &kp R &kp E &kp SPACE &kp LS(T) &kp E &kp S &kp T &kp E &kp D &kp COLON &Excel_RET>;
 
             label = "TESTHEAD";
         };
