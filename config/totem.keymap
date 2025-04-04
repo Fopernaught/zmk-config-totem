@@ -91,13 +91,13 @@
             key-positions = <5 6>;
         };
 
-        L_SHIFT {
-            bindings = <&kp LSHIFT>;
+        L_GUI {
+            bindings = <&kp LEFT_GUI>;
             key-positions = <13 14>;
         };
 
-        R_SHIFT {
-            bindings = <&kp RSHIFT>;
+        R_GUI {
+            bindings = <&kp LEFT_GUI>;
             key-positions = <15 16>;
         };
 
@@ -162,7 +162,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp N1 &kp RPAR &kp SPACE &kp LS(T) &kp H &kp E &kp SPACE &kp LT &kp GT &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp D &kp E &kp T &kp E &kp R &kp M &kp I &kp N &kp E &kp D &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp LT &kp GT &kp DOT &Excel_RET>;
+                <&kp N1 &kp RPAR &kp SPACE &kp LS(T) &kp H &kp E &kp SPACE &kp LT &kp GT &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp D &kp E &kp T &kp E &kp R &kp M &kp I &kp N &kp E &kp D &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp LT &kp GT &kp DOT>;
 
             label = "EXAMINESTATE";
         };
@@ -172,7 +172,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp N1 &kp RPAR &kp SPACE &kp LT &kp LS(C) &kp L &kp I &kp E &kp N &kp T &kp LS(P) &kp LS(O) &kp LS(C) &kp S &kp GT &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp D &kp E &kp T &kp E &kp R &kp M &kp I &kp N &kp E &kp D &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp LT &kp GT &kp DOT &Excel_RET>;
+                <&kp N1 &kp RPAR &kp SPACE &kp LT &kp LS(C) &kp L &kp I &kp E &kp N &kp T &kp LS(P) &kp LS(O) &kp LS(C) &kp S &kp GT &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp D &kp E &kp T &kp E &kp R &kp M &kp I &kp N &kp E &kp D &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp LT &kp GT &kp DOT>;
 
             label = "INTERVIEWSTATEMENT";
         };
@@ -182,7 +182,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp N1 &kp RPAR &kp SPACE &kp LT &kp GT &kp SPACE &kp B &kp Y &kp SPACE &kp LT &kp GT &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp D &kp E &kp T &kp E &kp R &kp M &kp I &kp N &kp E &kp D &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp LT &kp GT &kp DOT &Excel_RET>;
+                <&kp N1 &kp RPAR &kp SPACE &kp LT &kp GT &kp SPACE &kp B &kp Y &kp SPACE &kp LT &kp GT &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp D &kp E &kp T &kp E &kp R &kp M &kp I &kp N &kp E &kp D &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp LT &kp GT &kp DOT>;
 
             label = "TESTSTATEMENT";
         };
@@ -210,10 +210,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q  &kp W  &kp E    &kp R        &kp T        &kp Y    &kp U          &kp I      &kp O    &kp P
-         &kp A  &kp S  &kp D    &mt LSHFT F  &kp G        &kp H    &mt RSHFT J    &kp K      &kp L    &kp SEMI
-&lt 3 Q  &kp Z  &kp X  &kp C    &kp V        &kp B        &kp N    &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-                       &kp DEL  &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM SPACE  &kp BSPC
+                 &kp Q  &kp W  &kp E    &kp R        &kp T        &kp Y    &kp U          &kp I      &kp O    &kp P
+                 &kp A  &kp S  &kp D    &mt LSHFT F  &kp G        &kp H    &mt RSHFT J    &kp K      &kp L    &kp SEMI
+&lt 3 BACKSLASH  &kp Z  &kp X  &kp C    &kp V        &kp B        &kp N    &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
+                               &kp DEL  &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM SPACE  &kp BSPC
             >;
         };
 
