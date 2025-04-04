@@ -80,6 +80,36 @@
             bindings = <&Excel_RET>;
             key-positions = <35 34>;
         };
+
+        L-CTL {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <3 4>;
+        };
+
+        R-CTL {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <5 6>;
+        };
+
+        L-SHIFT {
+            bindings = <&kp LSHIFT>;
+            key-positions = <13 14>;
+        };
+
+        R-SHIFT {
+            bindings = <&kp RSHIFT>;
+            key-positions = <15 16>;
+        };
+
+        L-ALT {
+            bindings = <&kp LALT>;
+            key-positions = <24 25>;
+        };
+
+        R-ALT {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <26 27>;
+        };
     };
 
     macros {
@@ -180,10 +210,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q  &kp W       &kp E        &kp R        &kp T        &kp Y    &kp U          &kp I        &kp O       &kp P
-         &kp A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G        &kp H    &mt RSHFT J    &mt RCTRL K  &mt RALT L  &kp SEMI
-&lt 3 Q  &kp Z  &kp X       &kp C        &kp V        &kp B        &kp N    &kp M          &kp COMMA    &kp DOT     &kp FSLH  &kp BACKSLASH
-                            &kp DEL      &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM SPACE  &kp BSPC
+         &kp Q  &kp W  &kp E    &kp R        &kp T        &kp Y    &kp U          &kp I      &kp O    &kp P
+         &kp A  &kp S  &kp D    &mt LSHFT F  &kp G        &kp H    &mt RSHFT J    &kp K      &kp L    &kp SEMI
+&lt 3 Q  &kp Z  &kp X  &kp C    &kp V        &kp B        &kp N    &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
+                       &kp DEL  &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM SPACE  &kp BSPC
             >;
         };
 
