@@ -81,32 +81,32 @@
             key-positions = <35 34>;
         };
 
-        L-CTL {
+        L_CTL {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <3 4>;
         };
 
-        R-CTL {
+        R_CTL {
             bindings = <&kp RIGHT_CONTROL>;
             key-positions = <5 6>;
         };
 
-        L-SHIFT {
+        L_SHIFT {
             bindings = <&kp LSHIFT>;
             key-positions = <13 14>;
         };
 
-        R-SHIFT {
+        R_SHIFT {
             bindings = <&kp RSHIFT>;
             key-positions = <15 16>;
         };
 
-        L-ALT {
+        L_ALT {
             bindings = <&kp LALT>;
             key-positions = <24 25>;
         };
 
-        R-ALT {
+        R_ALT {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <26 27>;
         };
