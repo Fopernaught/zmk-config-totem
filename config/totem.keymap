@@ -236,10 +236,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp ESC    &kp PRINTSCREEN  &kp UP    &kp HOME   &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8      &kp KP_N9  &kp KP_PLUS
-         &kp LSHFT  &kp LEFT         &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5      &kp KP_N6  &kp KP_MINUS
-&kp END  &kp DEL    &kp PG_UP        &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2      &kp KP_N3  &kp KP_MULTIPLY  &kp SLASH
-                                     &trans    &trans     &trans      &mo 3     &kp KP_N0  &kp BACKSPACE
+         &kp ESC    &kp PRINTSCREEN  &kp UP    &kp HOME   &kp LBRC    &kp RBRC  &kp N7        &kp N8         &kp N9        &kp KP_PLUS
+         &kp LSHFT  &kp LEFT         &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp KP_MINUS
+&kp END  &kp DEL    &kp PG_UP        &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp KP_MULTIPLY  &kp SLASH
+                                     &trans    &trans     &trans      &mo 3     &kp N0        &kp BACKSPACE
             >;
         };
 
