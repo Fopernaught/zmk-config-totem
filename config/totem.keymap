@@ -288,10 +288,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans                                  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &bootloader  &bt BT_NXT  &trans        &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &trans        &trans                                  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                 &trans        &trans                                  &trans    &trans  &trans  &trans
+       &sys_reset   &bt BT_CLR  &out OUT_TOG  &none                                   &none    &none  &kp F7  &kp F8  &kp F9  &kp F12
+       &bootloader  &bt BT_NXT  &none         &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &none    &none  &kp F4  &kp F5  &kp F6  &kp F11
+&none  &none        &bt BT_PRV  &none         &none                                   &none    &none  &kp F1  &kp F2  &kp F3  &kp F10  &none
+                                &none         &none                                   &none    &none  &none   &none
             >;
         };
 
